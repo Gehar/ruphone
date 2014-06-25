@@ -1,0 +1,25 @@
+﻿Кодовое имя проекта - ruphone - Russian Phone
+ОС: Linux
+Возможные сборки: Angstrom (http://ru.wikipedia.org/wiki/%C3%85ngstr%C3%B6m)
+                  Familiar (http://ru.wikipedia.org/wiki/Familiar)
+Замечания: Указанные выше сборки похоже давно уже не обновляются (более 5 лет), по этом их можно использовать только в качестве стартовой точки для поисков. Так же стоит посмотреть в сторону проекта OpenEmbedded (http://ru.wikipedia.org/wiki/OpenEmbedded).
+
+Выбор остановился на плате CM-SAMA5D35:
+http://www.armdevs.com/CM-SAMA5D35.html
+Она обладает достаточно производительным ARM процессором с ядром Cortex-A5 (частота 536 МГц) и низкой стоимостью $79.
+Поддерживает ядро Linux 3.6.9.
+
+LCD экран: NHD‐3.5‐320240MF‐ATXL#‐CTP‐1
+Есть в наличии по цене $66: http://ru.mouser.com/ProductDetail/Newhaven-Display/NHD-35-320240MF-ATXL-CTP-1/?qs=sGAEpiMZZMu%2fRY1bNe3bO%252bfdCzKKLH%252bkFx%252bppPz%2fLmI%3d
+В том же магазине есть в наличии коннектор к нему Molex 51296-5494 (стоимость ~$5): http://ru.mouser.com/ProductDetail/Molex/51296-5494/?qs=4bbongekVITRccYxX5re8w==
+
+Итого стоимость 1 модуль + 1 LCD + 3 коннектора для LCD = $79 + $66 + 3*$5 = $160 ~ 5 760 рублей.
+
+На ebay дисплей 4.3 дюйма (480*272) стоит $28 ~ 1000 р.
+http://www.ebay.com/itm/4-3-TFT-LCD-Module-Display-Touch-Panel-Screen-/200631218761?pt=LH_DefaultDomain_0&hash=item2eb68d7249
+
+Еще один дисплей, 4.3 дюйма (480*272) стоит $16 ~ 500 р + $2 за доставку.
+От предыдущего отличает наличие разъема на плату и в два раза лучшее время отклика (15 мс).
+http://www.ebay.com/itm/4-3-480x272-TFT-LCD-Color-Display-Module-Touch-Screen-Panel-for-MP4-GPS-PSP-Car-/291020301884?pt=LH_DefaultDomain_0&hash=item43c229663c
+Здесь он может быть дешевле.
+http://www.buydisplay.com/default/tft-4-3-inch-lcd-module-touchscreen-display-for-mp4-gps-480x272
